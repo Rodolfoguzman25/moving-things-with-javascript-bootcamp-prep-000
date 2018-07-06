@@ -1,3 +1,4 @@
+
 var dodger=document.getElementByID('dodger')
 dodger.style.backgroundColor= '#FF89302'
 var leftNumbers= dodger.style.left.replace('px','')
@@ -8,7 +9,6 @@ function moveDodgerLeft(){
       dodger.style.left=`${left-1}px`
     }
 }
-
 function moveDodgerRight(){
   if(left<360){
     dodger.style.left=`${left+1}px`
